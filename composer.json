@@ -1,0 +1,30 @@
+{
+	"name": "expresscore/yaml",
+	"license": "MIT",
+	"description": "",
+	"require": {
+		"php": ">=8.1",
+		"phpunit/phpunit": "9.5.*"
+	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "git@github.com:expresscore/yaml.git"
+		}
+	],
+	"keywords": ["library", "yaml", "yml", "parser"],
+	"homepage": "https://devsprint.pl",
+	"authors": [
+		{
+			"name": "Marcin Stodulski",
+			"homepage": "https://devsprint.pl",
+			"role": "Developer"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"expresscore\\yaml\\": "src"
+
+		}
+	}
+}
